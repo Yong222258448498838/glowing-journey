@@ -1,25 +1,33 @@
-*{
-    margin:0;
+body {
+     margin:0;
     padding:0;
     box-sizing:border-box;
-}
-body {
     margin: 0;
-    font-family: Arial, sans-serif;
-     
-    
+    font-family: Arial, sans-serif;   
   }
-
   .background-section {
-   height:100vb;
-   width:100%;
+   
      background-image: url('Untitled-100.jpg'); /* Reference your uploaded file */
-    background-size: cover;       /* Ensures the image covers the entire area */
-    
-    background-position: center center;  /* Centers the image */
-  
+   height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+/* Laptop styles (minimum width 1024px) */
+@media (min-width: 1024px) {
+  .container {
+    background: linear-gradient(to right, #4CAF50, #81C784); /* Green gradient */
   }
-
+}
+/* Phone styles (maximum width 768px) */
+@media (max-width: 768px) {
+  .container {
+    background: linear-gradient(to right, #2196F3, #64B5F6); /* Blue gradient */
+  }
+}
   .content {
     text-align: center;
     color: white;
