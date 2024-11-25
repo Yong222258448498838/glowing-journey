@@ -7,7 +7,6 @@ body {
   }
   .background-section {
    
-     background-image: url('Untitled-100.jpg'); /* Reference your uploaded file */
    height: 100vh; /* Full viewport height */
   display: flex;
   flex-direction: column;
@@ -15,17 +14,21 @@ body {
   align-items: center;
   text-align: center;
   color: white;
+  background-size: cover; /* Cover the entire container */
+  background-position: center;
+  background-repeat: no-repeat;
 }
 /* Laptop styles (minimum width 1024px) */
 @media (min-width: 1024px) {
-  .container {
-    background: linear-gradient(to right, #4CAF50, #81C784); /* Green gradient */
+ .background-section {
+    background-image: url('Untitled-100.jpg'); /* Replace with your laptop image URL */
   }
 }
+
 /* Phone styles (maximum width 768px) */
 @media (max-width: 768px) {
-  .container {
-    background: linear-gradient(to right, #2196F3, #64B5F6); /* Blue gradient */
+  .background-section {
+    background-image: url('Untitled-100.jpg'); /* Replace with your phone image URL */
   }
 }
   .content {
