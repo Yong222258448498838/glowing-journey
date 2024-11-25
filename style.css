@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+     
+    
+  }
+
+  .background-section {
+   height:100vb;
+   width:100%;
+     background-image: url('Untitled-100.jpg'); /* Reference your uploaded file */
+    background-size: cover;       /* Ensures the image covers the entire area */
+    
+    background-position: center center;  /* Centers the image */
+  
+  }
+
+  .content {
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Adds transparency for readability */
+  }
